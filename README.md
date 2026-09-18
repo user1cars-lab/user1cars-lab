@@ -60,14 +60,13 @@ I build reliable software that turns complex problems into simple, useful experi
 ## GitHub activity
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=user1cars-lab&show_icons=true&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=a78bfa&text_color=cbd5e1&ring_color=38bdf8" alt="Hassan's GitHub statistics" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=user1cars-lab&layout=compact&hide_border=true&bg_color=0f172a&title_color=38bdf8&text_color=cbd5e1" alt="Hassan's most used languages" />
+  <img height="170" src="./assets/stats.svg" alt="Hassan GitHub statistics" />
+  <img height="170" src="./assets/languages.svg" alt="Languages and focus" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=user1cars-lab&bg_color=0f172a&color=cbd5e1&line=38bdf8&point=a78bfa&area=true&hide_border=true" alt="GitHub activity graph" width="100%" />
 </div>
 
 ## Connect

@@ -1,0 +1,25 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#020617"/>
+    <stop offset="0.5" stop-color="#0f172a"/>
+    <stop offset="1" stop-color="#111827"/>
+    <animate attributeName="x1" values="0;180;0" dur="12s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="150" y1="40" x2="1050" y2="260" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#38BDF8"/>
+    <stop offset="0.5" stop-color="#818CF8"/>
+    <stop offset="1" stop-color="#C084FC"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="12" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#38BDF8" stroke-opacity="0.08"/></pattern>
+</defs>
+<rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+<circle cx="1080" cy="40" r="130" fill="#38BDF8" fill-opacity="0.08" filter="url(#glow)"><animate attributeName="cy" values="40;80;40" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="110" cy="270" r="150" fill="#8B5CF6" fill-opacity="0.08" filter="url(#glow)"><animate attributeName="cx" values="110;160;110" dur="9s" repeatCount="indefinite"/></circle>
+<path d="M0 238C180 190 270 276 445 226C625 174 715 258 890 215C1010 185 1100 207 1200 178" stroke="url(#accent)" stroke-width="3" stroke-opacity="0.8" fill="none"><animate attributeName="d" values="M0 238C180 190 270 276 445 226C625 174 715 258 890 215C1010 185 1100 207 1200 178;M0 220C180 260 300 178 470 230C640 280 750 170 900 220C1020 260 1100 190 1200 205;M0 238C180 190 270 276 445 226C625 174 715 258 890 215C1010 185 1100 207 1200 178" dur="10s" repeatCount="indefinite"/></path>
+<text x="600" y="130" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" letter-spacing="8">HASSAN</text>
+<text x="600" y="178" text-anchor="middle" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="5">SOFTWARE ENGINEER  •  DATA  •  MOBILE</text>
+<rect x="438" y="202" width="324" height="3" rx="2" fill="url(#accent)"><animate attributeName="width" values="180;324;180" dur="5s" repeatCount="indefinite"/></rect>
+</svg>
